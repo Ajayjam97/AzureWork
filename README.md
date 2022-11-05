@@ -10,9 +10,10 @@
 
 Cloud computing is the delivery of computing services over the internet. Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking. There are many other new & hybrid services as well.
 Cloud computing is the delivery of computing services over the internet. Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking. Cloud computing falls under OpEx because cloud computing operates on a consumption-based model.
-
-Cloud Model types (Public, Private, Hybrid, Multi-Cloud)
-Cloud Service types (IAAS, PAAS, SAAS)
+<ul>
+ <li>Cloud Model types (Public, Private, Hybrid, Multi-Cloud)</li>
+ <li>Cloud Service types (IAAS, PAAS, SAAS)</li>
+ </ul>
 <br>
  
 </details>
