@@ -25,7 +25,8 @@ Cloud computing is the delivery of computing services over the internet. Computi
 <details>
 <summary>Intro to Azure</summary>
 Azure is the public cloud offering from Microsoft. It provides more than 100 services that enable you to do everything from running your existing applications on virtual machines to exploring new software tools & services (Containerization, Blockchain, ML, AI, IOT etc). <br> <br>
-As cloud is just another computer that multiple users are accessing through the internet. Cloud vendors make use of economies of scale & global reach to profit through their online computing services. Azure has the biggest set of data centers(Zones) spread across Regions which are further part of different geographies across the Globe. Find the latest Global infrastructure of Azure below. <br>
+As cloud is just another computer that multiple users are accessing through the internet. Cloud vendors make use of economies of scale & global reach to profit through their online computing services. Azure has the biggest set of data centers(Zones) spread across Regions which are further part of different geographies across the Globe. <br>
+Find the latest Global infrastructure of Azure below. <br>
 https://infrastructuremap.microsoft.com/explore <br>
 A list of all cloud services provided by Azure can be found below. <br>
 https://azure.microsoft.com/en-in/products/ 
