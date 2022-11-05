@@ -7,6 +7,9 @@
 
 <details>
 <summary>What is cloud?</summary>
+
+Cloud computing is the delivery of computing services over the internet. Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking. There are many other new & hybrid services as well.
+
 <br>
  
 </details>
