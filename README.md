@@ -114,6 +114,16 @@ Also, most Azure regions are paired with another region within the same geograph
 
 <details>
 <summary>Managing Costs</summary>
+ 
+ Almost everything in the cloud costs money. Cloud has below pricing models:
+ <ul>
+ <li>Per resource (VMs)</li>
+ <li>Per consumption (Function apps)</li>
+ <li>Reservations (Reserved instances)</li>
+  
+  https://azure.microsoft.com/en-in/pricing/calculator/ 
+ </ul>
+ 
 <br>
  
 </details>
