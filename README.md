@@ -18,8 +18,7 @@ Cloud computing is the delivery of computing services over the internet. Computi
  </li>
  <li>Cloud Service types (IAAS, PAAS, SAAS)</li>
  </ul>
-<br>
- 
+
 </details>
 
 <details>
