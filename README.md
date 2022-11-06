@@ -36,7 +36,7 @@ https://azure.microsoft.com/en-in/products/
 
 <details>
 <summary>A look at Azure</summary>
-To create and use Azure services, you need an Azure subscription. After you've created an Azure account, you're free to create additional subscriptions. After you've created an Azure subscription, you can start creating Azure resources within each subscription. Portal can be accessed from below link. <br>
+To create and use Azure services, you need an Azure subscription. After you've created an Azure account, you're free to create additional subscriptions. After you've created an Azure subscription, you can start creating Azure resources within each subscription. Creation of resources & other operations can also be performed either from the Azure Cloud Shell on the portal or you can download it to your local. Portal can be accessed from below link. <br>
 https://www.portal.azure.com
 <br>
  
