@@ -68,9 +68,6 @@ Also, most Azure regions are paired with another region within the same geograph
  <li>AKS</li>
  <li>Azure Functions</li>
  </ul>
-
-<br>
- 
 </details>
 
 <details>
