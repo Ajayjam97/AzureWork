@@ -62,6 +62,13 @@ Also, most Azure regions are paired with another region within the same geograph
 
 <details>
 <summary>Compute Services</summary>
+<ul>
+ <li>Virtual Machines</li>
+ <li>App Services</li>
+ <li>AKS</li>
+ <li>Azure Functions</li>
+ </ul>
+
 <br>
  
 </details>
