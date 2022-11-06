@@ -122,9 +122,9 @@ Also, most Azure regions are paired with another region within the same geograph
  <li>Reservations (Reserved instances)</li> <br>
   Before allocating resources,always calculate their prices in pricing calculator.
   https://azure.microsoft.com/en-in/pricing/calculator/ 
-  
+  <br>
   To do budgeting in Azure navigate to
-  Home > Cost Management + Billing  > Cost Management > Budgets
+  Home > Cost Management + Billing  > Cost Management > Budgets <br>
   Here you can describe your Annual/Monthly budget & can set alerts based on the threshold of thebudget.
  </ul>
  
