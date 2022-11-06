@@ -119,7 +119,7 @@ Almost everything in the cloud costs money. Cloud has below pricing models:
  <ul>
  <li>Per resource (VMs)</li>
  <li>Per consumption (Function apps)</li>
- <li>Reservations (Reserved instances)</li> <br>
+ <li>Reservations (Reserved instances)</li>
   </ul>
   Before allocating resources,always calculate their prices in pricing calculator.
   https://azure.microsoft.com/en-in/pricing/calculator/ 
