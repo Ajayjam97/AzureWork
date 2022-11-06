@@ -115,7 +115,7 @@ Also, most Azure regions are paired with another region within the same geograph
 <details>
 <summary>Managing Costs</summary>
  
- Almost everything in the cloud costs money. Cloud has below pricing models:
+Almost everything in the cloud costs money. Cloud has below pricing models:
  <ul>
  <li>Per resource (VMs)</li>
  <li>Per consumption (Function apps)</li>
@@ -123,9 +123,9 @@ Also, most Azure regions are paired with another region within the same geograph
   Before allocating resources,always calculate their prices in pricing calculator.
   https://azure.microsoft.com/en-in/pricing/calculator/ 
   <br>
-  To do budgeting in Azure navigate to
-  Home > Cost Management + Billing  > Cost Management > Budgets <br>
-  Here you can describe your Annual/Monthly budget & can set alerts based on the threshold of thebudget.
+To do budgeting in Azure navigate to
+Home > Cost Management + Billing  > Cost Management > Budgets <br>
+Here you can describe your Annual/Monthly budget & can set alerts based on the threshold of thebudget.
  </ul>
  
 <br>
