@@ -142,3 +142,15 @@ Here you can describe your Annual/Monthly budget & can set alerts based on the t
 <br>
 
 ## Archetecting modern apps in Azure
+
+
+<details>
+<summary>Setting up development environment</summary>
+ 
+ <ol>
+ <li>Install .NET SDK</li>
+ <li>Install VS Code</li>
+ <li>Install extensions, Azure account & Azure App Services</li>
+ </ol>
+
+ </details>
