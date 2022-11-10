@@ -66,10 +66,12 @@ Also, most Azure regions are paired with another region within the same geograph
  Provides a virtual server running on a physical server by utilizing physical hardware and sharing resources using virtualization. It is a regular server that can be accessed using RDP or SSH protocols. Virtual machines can be created using below steps: <br>
  1. Go to pricing calculator & add a VM. Check the price it is taking. <br>
  2. To create a VM in Azure navigate to Home > Virtual machine <br>
- 3. After creating VMyou can connect to it using RDP or SSH thorugh its public IP. <br>
+ 3. After creating VM you can connect to it using RDP or SSH thorugh its public IP. <br>
  4. Even after the VM is stopped, it keeps on incurring cost due to resources (Disk, IP, Storage). <br>
  5. Thus the reosurce group / all the resources of VM need to be deleted to prevent cost consumption. <br>
  6. Ways to reduce VM costs (Auto shutdown, Reserved Instance, Spot Instances, Disk optimization). <br>
+ 7. While creating the VM make sure to configure it for high availability, low cost consumption & download its ARM template. <br>
+ 8. An ARM template is a JSON file that can be exported, modified, uploaded & deployed.
  
  <li>App Services</li>
  <li>AKS</li>
