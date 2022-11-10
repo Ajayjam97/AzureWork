@@ -72,6 +72,8 @@ Also, most Azure regions are paired with another region within the same geograph
  6. Ways to reduce VM costs (Auto shutdown, Reserved Instance, Spot Instances, Disk optimization). <br>
  7. While creating the VM make sure to configure it for high availability, low cost consumption & download its ARM template. <br>
  8. An ARM template is a JSON file that can be exported, modified, uploaded & deployed.
+ 9. If you run Azure Cloud Shell, a storage account under a default resource group would get created for cloud shell. <br>
+ 10. Upload your ARM templates to the file share of cloud shell & run command "az deployment group create --resource-group First-rg --template-file template.json --parameters parameters.json" inside the folder in cloud shell.
  
  <li>App Services</li>
  <li>AKS</li>
