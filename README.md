@@ -62,7 +62,7 @@ Also, most Azure regions are paired with another region within the same geograph
 <details>
 <summary>Compute Services</summary>
 <ul>
- <li>Virtual Machines</li> <br>
+ <li>Virtual Machines</li> 
  Provides a virtual server running on a physical server by utilizing physical hardware and sharing resources using virtualization. It is a regular server that can be accessed using RDP or SSH protocols.
  
  <li>App Services</li>
