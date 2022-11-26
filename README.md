@@ -74,6 +74,8 @@ Also, most Azure regions are paired with another region within the same geograph
  8. An ARM template is a JSON file that can be exported, modified, uploaded & deployed. <br>
  9. If you run Azure Cloud Shell, a storage account under a default resource group would get created for cloud shell. <br>
  10. Upload your ARM templates to the file share of cloud shell & run command "az deployment group create --resource-group First-rg --template-file template.json --parameters parameters.json" inside the folder in cloud shell.
+ 11. VM scale set is a group of seperate VMs sharing the same image. They can be used with load balancers to handle unpredictable load.
+ 12. 
  
  <li>App Services</li>
  <li>AKS</li>
