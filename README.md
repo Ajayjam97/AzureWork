@@ -75,7 +75,7 @@ Also, most Azure regions are paired with another region within the same geograph
  9. If you run Azure Cloud Shell, a storage account under a default resource group would get created for cloud shell. <br>
  10. Upload your ARM templates to the file share of cloud shell & run command "az deployment group create --resource-group First-rg --template-file template.json --parameters parameters.json" inside the folder in cloud shell. <br>
  11. VM scale set is a group of seperate VMs sharing the same image. They can be used with load balancers to handle unpredictable load.<br>
- 12. 
+ 12. Shutdown the VMs when not in use.<br>
  
  <li>App Services</li>
  <li>AKS</li>
