@@ -76,7 +76,7 @@ Also, most Azure regions are paired with another region within the same geograph
  9. If you run Azure Cloud Shell, a storage account under a default resource group would get created for cloud shell. <br>
  10. Upload your ARM templates to the file share of cloud shell & run command "az deployment group create --resource-group First-rg --template-file template.json --parameters parameters.json" inside the folder in cloud shell. <br>
  11. VM scale set is a group of seperate VMs sharing the same image. They can be used with load balancers to handle unpredictable load.<br>
- 12. Shutdown the VMs when not in use.<br>
+ 12. Shutdown the VMs when not in use.<br> <br>
  
  <li>App Services</li>
  App Services provide a fully managed web hosting for websites. Microsoft manages the hosting & security for the hosted application. We just need to publish and run the app service. There is no access to the underlying servers. App service integrates with many source control & devops engine. It supports platforms like .NET, Nodejs, PHP, Java, Python etc. It can host web apps, web apis & web jobs. It is extremely easy to deploy. <br> <br>
