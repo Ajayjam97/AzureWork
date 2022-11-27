@@ -170,8 +170,8 @@ Here you can describe your Annual/Monthly budget & can set alerts based on the t
  <li>Install extensions, Azure account & Azure App Services</li>
  <li>Use command dotnet run to run the application on localhost</li>
  <li>Use command dotnet publish -o publish to publish the application</li>
- <li>To set up IIS server connect to windows VM using RDP.</li>
- <li>To set up linux server connect to ubuntu VM using SSH(Putty). Use command "Sudo apt install git", "Sudo apt update", "Sudo apt install nodejs". Git clone the api to be hosted & use command "sudo apt install npm", "npm start".</li>
+ <li>To set up IIS server connect to Windows VM using RDP. Using server manager dashboard in server roles install "Web Server (IIS)". Also install dotnet hosting bundle to host dotnet applications. Publish your application and add site in IIS.</li>
+ <li>To set up linux server connect to Ubuntu VM using SSH(Putty). Use command "Sudo apt install git", "Sudo apt update", "Sudo apt install nodejs". Git clone the api to be hosted & use command "sudo apt install npm", "npm start".</li>
  </ol>
 
  </details>
