@@ -168,6 +168,8 @@ Here you can describe your Annual/Monthly budget & can set alerts based on the t
  <li>Install .NET SDK</li>
  <li>Install VS Code</li>
  <li>Install extensions, Azure account & Azure App Services</li>
+ <li>Use command dotnet run to run the application on localhost</li>
+ <li>Use command dotnet publish -o publish to publish the application</li>
  </ol>
 
  </details>
