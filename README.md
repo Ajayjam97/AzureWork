@@ -84,8 +84,8 @@ Also, most Azure regions are paired with another region within the same geograph
  1. Check the pricing for the app service at https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#pricing <br>
  2. To create App Service in Azure navigate to Home > App Service <br>
  3. After creating the app service, the published files can be deployed and the working application can be accessed from url.<br>
- 4. Go to VS Code & use command "dotnet publish -o publish". Right click on the publish folder select deploy to Web App. This option is present due to Azure Web App  extension. <br>
- 5. <br>
+ 4. Go to VS Code & use command "dotnet publish -o publish". Right click on the publish folder select deploy to Web App. This option is present due to Azure Web App       extension. <br>
+ 5. After deployment, the app service files can be modified & managed from console, App Service Editor.<br>
  
  <li>AKS</li>
  <li>Azure Functions</li>
