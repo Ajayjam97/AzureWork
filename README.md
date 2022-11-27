@@ -86,6 +86,10 @@ Also, most Azure regions are paired with another region within the same geograph
  3. After creating the app service, the published files can be deployed and the working application can be accessed from url.<br>
  4. Go to VS Code & use command "dotnet publish -o publish". Right click on the publish folder select deploy to Web App. This option is present due to Azure Web App       extension. <br>
  5. After deployment, the app service files can be modified & managed from console, App Service Editor.<br>
+ 6. By default, App Services can be accessed using http and https. You can make it https only in the TLS/SSL settings in the App Service menu. <br>
+ 7. App service can also run batch processes, or continuous jobs, with the request/response  paradigm. This can be done using the WebJobs menu item, where you can upload exe file that will run always, or on scheduled times. <br>
+ 8. You can find there the Virtual IP address of the App Service, and also - the Outbound IP addresses in gthe properties page. <br>
+
  
  <li>AKS</li>
  <li>Azure Functions</li>
