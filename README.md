@@ -80,7 +80,7 @@ Also, most Azure regions are paired with another region within the same geograph
  <li>App Services</li>
  App Services provide a fully managed web hosting for websites. Microsoft manages the hosting & security for the hosted application. We just need to publish and run the app service. There is no access to the underlying servers. App service integrates with many source control & devops engine. It supports platforms like .NET, Nodejs, PHP, Java, Python etc. It can host web apps, web apis & web jobs. It is extremely easy to deploy. <br>
  1. Check the pricing for the app service at https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#pricing <br>
- 2. <br>
+ 2. To create App Service in Azure navigate to Home > App Service <br>
  3. <br>
  4. <br>
  5. <br>
