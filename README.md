@@ -170,6 +170,8 @@ Here you can describe your Annual/Monthly budget & can set alerts based on the t
  <li>Install extensions, Azure account & Azure App Services</li>
  <li>Use command dotnet run to run the application on localhost</li>
  <li>Use command dotnet publish -o publish to publish the application</li>
+ <li>To set up IIS server connect to windows VM using RDP.</li>
+ <li>To set up linux server connect to ubuntu VM using SSH(Putty). Use command "Sudo apt install git", "Sudo apt update", "Sudo apt install nodejs"</li>
  </ol>
 
  </details>
