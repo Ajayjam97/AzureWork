@@ -18,8 +18,7 @@ Cloud computing is the delivery of computing services over the internet. Computi
  </li>
  <li>Cloud Service types (IAAS, PAAS, SAAS)</li>
  </ul>
-<br>
- 
+
 </details>
 
 <details>
@@ -62,8 +61,35 @@ Also, most Azure regions are paired with another region within the same geograph
 
 <details>
 <summary>Compute Services</summary>
-<br>
+<ul> <br>
+ <li>Virtual Machines</li> 
+ Provides a virtual server running on a physical server by utilizing physical hardware and sharing resources using virtualization. It is a regular server that can be accessed using RDP or SSH protocols. Virtual machines can be created using below steps: <br> <br>
  
+ 1. Go to pricing calculator & add a VM. Check the price it is taking. <br>
+ 2. To create a VM in Azure navigate to Home > Virtual machine <br>
+ 3. After creating VM you can connect to it using RDP or SSH thorugh its public IP. <br>
+ 4. Even after the VM is stopped, it keeps on incurring cost due to resources (Disk, IP, Storage). <br>
+ 5. Thus the reosurce group / all the resources of VM need to be deleted to prevent cost consumption. <br>
+ 6. Ways to reduce VM costs (Auto shutdown, Reserved Instance, Spot Instances, Disk optimization). <br>
+ 7. While creating the VM make sure to configure it for high availability, low cost consumption & download its ARM template. <br>
+ 8. An ARM template is a JSON file that can be exported, modified, uploaded & deployed. <br>
+ 9. If you run Azure Cloud Shell, a storage account under a default resource group would get created for cloud shell. <br>
+ 10. Upload your ARM templates to the file share of cloud shell & run command "az deployment group create --resource-group First-rg --template-file template.json --parameters parameters.json" inside the folder in cloud shell. <br>
+ 11. VM scale set is a group of seperate VMs sharing the same image. They can be used with load balancers to handle unpredictable load.<br>
+ 12. Shutdown the VMs when not in use.<br> <br>
+ 
+ <li>App Services</li>
+ App Services provide a fully managed web hosting for websites. Microsoft manages the hosting & security for the hosted application. We just need to publish and run the app service. There is no access to the underlying servers. App service integrates with many source control & devops engine. It supports platforms like .NET, Nodejs, PHP, Java, Python etc. It can host web apps, web apis & web jobs. It is extremely easy to deploy. <br> <br>
+ 
+ 1. Check the pricing for the app service at https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#pricing <br>
+ 2. To create App Service in Azure navigate to Home > App Service <br>
+ 3. After creating the app service, the published files can be deployed and the working application can be accessed from url.<br>
+ 4. Go to VS Code & use command "dotnet publish -o publish". Right click on the publish folder select deploy to Web App. This option is present due to Azure Web App  extension. <br>
+ 5. <br>
+ 
+ <li>AKS</li>
+ <li>Azure Functions</li>
+ </ul>
 </details>
 
 <details>
@@ -142,3 +168,19 @@ Here you can describe your Annual/Monthly budget & can set alerts based on the t
 <br>
 
 ## Archetecting modern apps in Azure
+
+
+<details>
+<summary>Setting up development environment</summary>
+ 
+ <ol>
+ <li>Install .NET SDK</li>
+ <li>Install VS Code</li>
+ <li>Install extensions, Azure account & Azure App Services</li>
+ <li>Use command dotnet run to run the application on localhost</li>
+ <li>Use command dotnet publish -o publish to publish the application</li>
+ <li>To set up IIS server connect to Windows VM using RDP. Using server manager dashboard in server roles install "Web Server (IIS)". Also install dotnet hosting bundle to host dotnet applications. Publish your application and add site in IIS.</li>
+ <li>To set up linux server connect to Ubuntu VM using SSH(Putty). Use command "Sudo apt install git", "Sudo apt update", "Sudo apt install nodejs". Git clone the api to be hosted & use command "sudo apt install npm", "npm start".</li>
+ </ol>
+
+ </details>
