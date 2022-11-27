@@ -63,7 +63,8 @@ Also, most Azure regions are paired with another region within the same geograph
 <summary>Compute Services</summary>
 <ul> <br>
  <li>Virtual Machines</li> 
- Provides a virtual server running on a physical server by utilizing physical hardware and sharing resources using virtualization. It is a regular server that can be accessed using RDP or SSH protocols. Virtual machines can be created using below steps: <br>
+ Provides a virtual server running on a physical server by utilizing physical hardware and sharing resources using virtualization. It is a regular server that can be accessed using RDP or SSH protocols. Virtual machines can be created using below steps: <br> <br>
+ 
  1. Go to pricing calculator & add a VM. Check the price it is taking. <br>
  2. To create a VM in Azure navigate to Home > Virtual machine <br>
  3. After creating VM you can connect to it using RDP or SSH thorugh its public IP. <br>
