@@ -89,7 +89,9 @@ Also, most Azure regions are paired with another region within the same geograph
  6. By default, App Services can be accessed using http and https. You can make it https only in the TLS/SSL settings in the App Service menu. <br>
  7. App service can also run batch processes, or continuous jobs, with the request/response  paradigm. This can be done using the WebJobs menu item, where you can upload exe file that will run always, or on scheduled times. <br>
  8. You can find there the Virtual IP address of the App Service, and also - the Outbound IP addresses in gthe properties page. <br>
-
+ 9. While you can stop an App Service (using the Stop button at the top of the Overview page), all it will do is to stop the functionality of the App Service, but you'll still pay for it. <br>
+ 10. With VM - you pay only when the VM is On. With App Service - The only way to stop paying for it is to completely delete it. <br> <br>
+ 
  
  <li>AKS</li>
  <li>Azure Functions</li>
