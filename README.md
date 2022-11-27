@@ -82,8 +82,8 @@ Also, most Azure regions are paired with another region within the same geograph
  App Services provide a fully managed web hosting for websites. Microsoft manages the hosting & security for the hosted application. We just need to publish and run the app service. There is no access to the underlying servers. App service integrates with many source control & devops engine. It supports platforms like .NET, Nodejs, PHP, Java, Python etc. It can host web apps, web apis & web jobs. It is extremely easy to deploy. <br>
  1. Check the pricing for the app service at https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#pricing <br>
  2. To create App Service in Azure navigate to Home > App Service <br>
- 3. <br>
- 4. <br>
+ 3. After creating the app service, the published files can be deployed and the working application can be accessed from url.<br>
+ 4. Go to VS Code & use command "dotnet publish -o publish". Right click on the publish folder select deploy to Web App. This option is present due to Azure Web App  extension. <br>
  5. <br>
  
  <li>AKS</li>
