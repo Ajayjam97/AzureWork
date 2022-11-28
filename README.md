@@ -103,6 +103,7 @@ Also, most Azure regions are paired with another region within the same geograph
  4. Now we are running a container based on the image that we created. Connect to Azure Container Registery & create an ACR registery.  <br>
  5. Right click on the image/latest in VS Code & select push to push the image to the newly created ACR registery. <br>
  6. Go to Home > Kubernetes Services to set up Kubernetes Cluster. Select the ACR registery created by you in integration section. Review & Create. <br>
+ 7. Use command "az aks install-cli" to install aks cli. Set path vairable for kubectl.exe, and use command "az login". <br> <br>
  
  
  <li>Azure Functions</li>
