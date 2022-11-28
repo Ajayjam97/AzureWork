@@ -99,8 +99,8 @@ Also, most Azure regions are paired with another region within the same geograph
  
  1. Installing Docker https://docs.docker.com/desktop/install/windows-install/ . Also install Docker extension in VS Code. <br>
  2. Installing Azure CLI. https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli <br>
- 3. <br>
- 4.  <br>
+ 3. In the project directory in VS Code, right click on the Docker file & select build image. Go to the Docker icon in VS Code & run the image that was created. <br>
+ 4. Now we are running a container based on the image that we created. Connect to Azure Container Registery & save the image in your ACR regitery  <br>
  5. <br>
  
  
