@@ -97,8 +97,8 @@ Also, most Azure regions are paired with another region within the same geograph
  Azure Kubernetes services is used as a managed Kubernetes on Azure. It allows deploying containers & managing them using Kubernetes on Azure. We pay only for the instances(VMs) used by Kubernetes. Containers are like thin packaging models which packages software, its dependencies & configuration files. They provide better performance, predictibility & density in deployment. Containers share the same OS, so isolation is less as compared to VM. Docker is the most popular container environment. Docker architecture consists of Docker Host & Registery. The Docker host contains daemon/server which turns containers on/off, tracks activity, build containers based on images & exposes API for management. The Docker Registery is a repository of the images used by Docker Host. For managing deployment, scalability, monitoring, routing & high-availability of contianers we use container management tools like Kubernetes.
  <br> <br>
  
- 1. Installing Docker. https://docs.docker.com/desktop/install/windows-install/<br>
- 2. Installing Azure CLI. https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli<br>
+ 1. Installing Docker https://docs.docker.com/desktop/install/windows-install/ . Also install Docker extension in VS Code. <br>
+ 2. Installing Azure CLI. https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli <br>
  3. <br>
  4.  <br>
  5. <br>
