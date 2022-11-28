@@ -98,7 +98,7 @@ Also, most Azure regions are paired with another region within the same geograph
  <br> <br>
  
  1. Installing Docker. https://docs.docker.com/desktop/install/windows-install/<br>
- 2.  <br>
+ 2. Installing Azure CLI. https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli<br>
  3. <br>
  4.  <br>
  5. <br>
