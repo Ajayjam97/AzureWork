@@ -102,6 +102,7 @@ Also, most Azure regions are paired with another region within the same geograph
  3. In the project directory in VS Code, right click on the Docker file & select build image. Go to the Docker icon in VS Code & run the image that was created. <br>
  4. Now we are running a container based on the image that we created. Connect to Azure Container Registery & create an ACR registery.  <br>
  5. Right click on the image/latest in VS Code & select push to push the image to the newly created ACR registery. <br>
+ 6. Go to Home > Kubernetes Services to set up Kubernetes Cluster. Select the ACR registery created by you in integration section. Review & Create. <br>
  
  
  <li>Azure Functions</li>
