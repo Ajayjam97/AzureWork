@@ -94,6 +94,16 @@ Also, most Azure regions are paired with another region within the same geograph
  
  
  <li>AKS</li>
+ Azure Kubernetes services is used as a managed Kubernetes on Azure. It allows deploying containers & managing them using Kubernetes on Azure. We pay only for the instances(VMs) used by Kubernetes. Containers are like thin packaging models which packages software, its dependencies & configuration files. They provide better performance, predictibility & density in deployment. Containers share the same OS, so isolation is less as compared to VM.
+ <br> <br>
+ 
+ 1. <br>
+ 2.  <br>
+ 3. <br>
+ 4.  <br>
+ 5. <br>
+ 
+ 
  <li>Azure Functions</li>
  </ul>
 </details>
